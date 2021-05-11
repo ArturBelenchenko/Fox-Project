@@ -154,6 +154,16 @@ body
     color: #fff;
 }
 
+@font-face
+{
+    font-family: 'Adobe Caslon Pro';
+    font-weight: normal;
+    font-style: normal;
+
+    src: local('Adobe Caslon Pro'), url('../fonts/ACaslonPro-Regular.woff2') format('woff2'), url('../fonts/ACaslonPro-Regular.woff') format('woff');
+    font-display: swap;
+}
+
 .navbar-wrapper__logo:hover,
 .navbar-wrapper__hamburger:hover,
 .phone-icon:hover
@@ -1011,7 +1021,57 @@ body
 
 .services-top-group__item:nth-child(2)
 {
+    position: relative;
+
     background-color: #c4c4c4;
+}
+
+.services-top-group__item:nth-child(2) .present__suptext
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 37px;
+
+    color: #333;
+}
+
+.services-top-group__item:nth-child(2) .present__subtext
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 37px;
+
+    text-transform: uppercase;
+
+    color: #333;
+}
+
+.services-top-group__item:nth-child(2) .present__image
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.services-top-group__item:nth-child(2) .present__code
+{
+    position: absolute;
+    bottom: 0;
+}
+
+.services-top-group__item:nth-child(2) .present__digits
+{
+    font-family: 'Adobe Caslon Pro';
+    font-size: 17px;
+    line-height: 20px;
+
+    text-transform: uppercase;
+
+    color: #ffff;
 }
 
 .services-top-group__item:nth-child(3)

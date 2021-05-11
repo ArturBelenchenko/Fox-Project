@@ -21,5 +21,6 @@
     "gulp-sass": "^4.1.0",
     "gulp-sourcemaps": "^2.6.5",
     "sort-css-media-queries": "^1.5.0"
-  }
+  },
+  "dependencies": {}
 }

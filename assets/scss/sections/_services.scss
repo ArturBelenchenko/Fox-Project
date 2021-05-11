@@ -24,6 +24,44 @@
         @include services-group-background-modify;
         &:nth-child(2) {
             @include services-group-background-modify(#c4c4c4);
+            position: relative;
+
+            .present {
+                &__suptext {
+                    font-family: $font-montserrat;
+                    font-weight: 700;
+                    font-style: normal;
+                    font-size: 30px;
+                    line-height: 37px;
+                    color: #333333;
+                }
+                &__subtext {
+                    font-family: $font-montserrat;
+                    font-weight: 500;
+                    font-style: normal;
+                    font-size: 30px;
+                    line-height: 37px;
+                    color: #333333;
+                    text-transform: uppercase;
+                }
+                &__image {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                }
+
+                &__code {
+                    position: absolute;
+                    bottom: 0;
+                }
+                &__digits {
+                    font-family: "Adobe Caslon Pro";
+                    font-size: 17px;
+                    line-height: 20px;
+                    color: #ffff;
+                    text-transform: uppercase;
+                }
+            }
         }
         &:nth-child(3) {
             @include services-group-background-modify(#1c4576);
