@@ -1026,6 +1026,13 @@ body
     background-color: #c4c4c4;
 }
 
+.services-top-group__item:nth-child(2) .present__text-wrap
+{
+    position: absolute;
+    top: 40px;
+    left: 30px;
+}
+
 .services-top-group__item:nth-child(2) .present__suptext
 {
     font-family: 'Montserrat', sans-serif;
@@ -1057,10 +1064,17 @@ body
     right: 0;
 }
 
+.services-top-group__item:nth-child(2) .present__image svg
+{
+    border-radius: 10px;
+}
+
 .services-top-group__item:nth-child(2) .present__code
 {
     position: absolute;
     bottom: 0;
+
+    height: 77px;
 }
 
 .services-top-group__item:nth-child(2) .present__digits
@@ -1069,9 +1083,13 @@ body
     font-size: 17px;
     line-height: 20px;
 
+    position: absolute;
+    left: 42px;
+
     text-transform: uppercase;
 
     color: #ffff;
+    background-color: #c4c4c4;
 }
 
 .services-top-group__item:nth-child(3)

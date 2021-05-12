@@ -27,6 +27,11 @@
             position: relative;
 
             .present {
+                &__text-wrap {
+                    position: absolute;
+                    top: 40px;
+                    left: 30px;
+                }
                 &__suptext {
                     font-family: $font-montserrat;
                     font-weight: 700;
@@ -49,12 +54,18 @@
                     top: 0;
                     right: 0;
                 }
-
+                &__image svg {
+                    border-radius: 10px;
+                }
                 &__code {
+                    height: 77px;
                     position: absolute;
                     bottom: 0;
                 }
                 &__digits {
+                    position: absolute;
+                    left: 42px;
+                    background-color: #c4c4c4;
                     font-family: "Adobe Caslon Pro";
                     font-size: 17px;
                     line-height: 20px;
